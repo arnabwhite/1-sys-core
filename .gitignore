@@ -1,0 +1,36 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environments / Secrets
+.env
+.env.*
+
+# Local Database & SQLite cache
+*.db
+*.sqlite
+*.sqlite3
+
+# OS / Editor files
+.DS_Store
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Project Specific Ignored Files
+# Ignore the system architecture guide as requested
+queue_system_guide.md
